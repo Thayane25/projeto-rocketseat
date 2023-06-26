@@ -48,6 +48,7 @@ color: var(--text-color);
   border: 0;
   border-radius: 50%;
   cursor: pointer;
+   animation: slide-back 0.2s forwards;
 
   position: absolute;
   top: 50%;
@@ -55,9 +56,13 @@ color: var(--text-color);
   z-index: 1;
   transform: translateY(-50%);
 }
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
+
+}
+
 .light #switch button{
-  right: 0;
-  left: initial;
+ animation: slide-in 0.2s forwards;
 }
 #switch span {
   display: block;
@@ -138,4 +143,20 @@ footer{
 .light {
   --bg-url: url(./assets/bg-desktop-light.jpg)
 }
+}
+@keyframes slide-in {
+  from {
+left:0;
+  }
+  to{
+    left:50%
+  }
+}
+@keyframes slide-back {
+  from {
+left:50%;
+  }
+  to{
+    left:0
+  }
 }
