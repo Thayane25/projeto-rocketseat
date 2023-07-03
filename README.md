@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O projeto é um agregador de links para usar como cartão de vistas online.
-Você pode visualizar o projeto [aqui](https://thayane25.github.io/projeto-rocketseat/)
+Você pode visualizar o projeto --> [aqui] (https://thayane25.github.io/projeto-rocketseat/)
 
 ## 🔖 Layout
 
